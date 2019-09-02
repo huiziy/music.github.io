@@ -1,4 +1,4 @@
-Music and Memory Retention
+Music and Memory Retention --- Statistic Experimental Design
 ================
 Spring 2019
 
