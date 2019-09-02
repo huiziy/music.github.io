@@ -1,28 +1,10 @@
 ---
 title: "Music and Memory Retention"
 subtitle: "The Island Research Project"
-date: "Statistics 101B - Spring 2019"
-author: 
-- "Huizi Yu - huiziy@ucla.edu"
-- "Lizhou Fan - lizhou@ucla.edu"
-- "Kaixin Wang - kaixinwang@ucla.edu"
-
-output:
-  pdf_document:
-    fig_caption: yes
-    keep_tex: yes
-    number_sections: yes
-header-includes: 
-  \usepackage{float} \floatplacement{figure}{H} \usepackage{lscape}
-  \usepackage{setspace} \setstretch{1.5}
-figsintext: yes
-graphics: yes
+date: "Spring 2019"
+output: rmarkdown::github_document
 ---
 
-\begin{singlespace}
-\tableofcontents
-\end{singlespace}
-\newpage
 
 # Abstract
 
@@ -46,9 +28,7 @@ We chose the virtual participants from the online resource the Island. We found 
 
 ## Design and Model
 
-The Randomized Latin Square design is helpful when blocking two sources of variation, person to person variability and order (time) of treatment. Controlling these two factors, we would be more likely to detect a significant result of the effect of our treatment, type of music. Thus, we create a model accordingly:
-
-$$y_{ijk} = \mu + \alpha_{i} + \beta_{j} + \gamma_{k} + \epsilon_{ijk},\ where\  i, j, k = 1, 2, 3, 4, 5$$
+The Randomized Latin Square design is helpful when blocking two sources of variation, person to person variability and order (time) of treatment. Controlling these two factors, we would be more likely to detect a significant result of the effect of our treatment, type of music. 
 
 In the model, $\alpha$ and $\beta$ are the two blocking factors, while $\gamma$ represents the treatment. Moreover, we held-constant three variables, including gender (male), region (the town of Macondo), and age (between 65 and 89).
 
