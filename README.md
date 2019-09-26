@@ -1,6 +1,7 @@
 Music and Memory Retention --- Statistic Experimental Design
 ================
 Spring 2019
+Huizi Yu, Lizhou Fan, Kaixin Wang
 
 Abstract
 ========
